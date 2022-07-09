@@ -1,4 +1,4 @@
-#include <main.h>
+#include <holberton.h>
 
 /**
  * main - prints the numbers from 1 to 100
