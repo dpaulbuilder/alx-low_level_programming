@@ -4,7 +4,7 @@
  * @n: input
  * Return: Always 0 (Success)
  */
-void (int n)
+void print_times_table(int n)
 {
 
 	return (0);
