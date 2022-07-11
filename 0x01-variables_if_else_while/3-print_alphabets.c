@@ -4,16 +4,16 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Retrun: Always 0 (Success)
  */
 int main(void)
 {
-	char low;
+	int a;
 
-	for (low = 'a'; low <= 'z'; low++)
-		putchar(low);
-	for (low = 'A'; low <= 'z'; low++)
-		putchar(low);
-		putchar('\n');
+	for (a = 97; a <= 122; a++)
+		putchar(a);
+	for (a = 65; a < 91; a++)
+		putchar(a);
+	putchar('\n');
 	return (0);
 }
