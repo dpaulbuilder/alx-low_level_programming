@@ -18,7 +18,7 @@ int main(void)
 	else if (n == 0)
 		printf("%d is zero\n", n);
 	else
-		ptintf("%d id negative\n", n);
+		printf("%d id negative\n", n);
 
 	return (0);
 }
