@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - Entry point
- *
+ * This program prints every letter of the alphabet
  * Retrun: Always 0 (Success)
  */
 int main(void)
