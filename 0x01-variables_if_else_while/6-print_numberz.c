@@ -1,16 +1,16 @@
-#include <stdio.h
+#include <stdio.h>
 
 /**
  * main - Entry point
- * This program print ever ASCII decimal digit
- * Return: 0 (success)
+ * This program prints every ASCII decimal digit
+ * Return: 0 (Success)
  */
 int main(void)
 {
 	int a;
 
-	for (a = 48; a <= 58; a++)
+	fot (a = 48; a < 58; a++)
 		putchar(a);
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
