@@ -2,15 +2,19 @@
 
 /**
  * _puts - prints a string
+ *
  * @str: The string to print
  *
- * Return: void
  */
 void _puts(char *str)
 {
-	for (; *str != '\0'; str++)
+	int i;
+	char c;
+
+	for (i = 0; str[i] != 0; i++)
 	{
-		_putchar(*str);
+		 c = str[i];
+		 _putchar(c);
 	}
 
 	_putchar('\n');
