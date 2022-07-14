@@ -1,7 +1,7 @@
 #include "holberton.h"
 
 /**
- * _puts - write a function that prints a string. followed by a new line, to stdout.
+ * _puts - write a function that prints a string.
  *
  * @str: Tjis is my input string
  *
