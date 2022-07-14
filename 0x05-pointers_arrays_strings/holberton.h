@@ -3,4 +3,4 @@
 
 void _puts(char *str);
 
-#endif /* HOLBERTON_H */
+#endif
