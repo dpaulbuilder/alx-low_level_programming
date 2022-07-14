@@ -14,14 +14,14 @@ char *leet(char *n)
 
 	for (i = 0; n[i] != '\0'; i++)
 	{
-		for (x = 0; x <= 9; x++)
-		{
-			if (n[i] == find[x])
-			{
-				n[i] == replacer[x / 2];
-				x = 9;
-			}
-		}
+	for (x = 0; x <= 9; i++)
+	}
+	{
+	if (n[i] == find[x])
+	}
+	{
+		n[i] = replacer[x / 2];
+		x = 9;
 	}
 
 	return (n);
