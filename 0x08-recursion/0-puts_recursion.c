@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**_puts_recursiin - function that prints a string followed by a new line
+/**
+ * _puts_recursiin - function that prints a string followed by a new line
  * @s: input
  * Return: Always 0 (Success)
  */
