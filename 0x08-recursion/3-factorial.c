@@ -1,13 +1,16 @@
-#include "main"
+#include "main.h"
 
 /**
- * factorial - a function that return the factorial
+ * factorial - funtion that return a factorial
+ * @n: input
+ * Return: Always 0 (Success)
  */
 int factorial(int n)
 {
-	int n;
-
-	n = fac 1, 4;
-	printf("The function that return a factorial 4 is %d.\n", fac)
-		return (0);
+	if (n < 0)
+		return (-1);
+	else if (n == 0)
+		return (1);
+	else
+		return (n * factorial(n - 1));
 }
